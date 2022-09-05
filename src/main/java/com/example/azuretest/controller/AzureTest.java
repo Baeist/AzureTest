@@ -10,10 +10,9 @@ import java.sql.Connection;
 @Controller
 public class AzureTest {
 
-    @GetMapping("/hi")
+    @GetMapping("/")
     public String sayHello(){
 
-        Connection connection = ConnectionManager.getConnection();
 
         return "index";
     }
