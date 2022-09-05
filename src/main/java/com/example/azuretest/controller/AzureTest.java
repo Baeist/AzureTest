@@ -17,4 +17,10 @@ public class AzureTest {
 
         return "index";
     }
+    @GetMapping("/tester")
+    public String sayComplete(){
+
+
+        return "test";
+    }
 }
