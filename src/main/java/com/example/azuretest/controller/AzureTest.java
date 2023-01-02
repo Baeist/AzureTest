@@ -14,12 +14,12 @@ public class AzureTest {
     public String sayHello(){
 
 
-        return "index";
+        return "test";
     }
     @GetMapping("/tester")
     public String sayComplete(){
 
 
-        return "test";
+        return "index";
     }
 }
